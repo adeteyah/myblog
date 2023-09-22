@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Components</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+			integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Mono&Noto+Sans+Old+Permic&family=Work+Sans&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://css.gg/css?=|arrow-up|comment|math-plus|math-minus|bookmark|dice-3|menu"
+			rel="stylesheet" />
+		<script>
+			let localS = localStorage.getItem('theme');
+
+			if (localS == 'dark') {
+				document.documentElement.setAttribute('data-theme', 'dark');
+			}
+		</script>
+	</head>
+	<body>
+		<div class="cursor-dot" data-cursor-dot></div>
+		<div class="cursor-outline" data-cursor-outline></div>
+		<div class="container">
+			<h1>Toggle Darkmode</h1>
+			<button id="theme-switcher" type="button" class="btn btn-primary">
+				Toggle Dark Mode
+			</button>
+			<!--  -->
+			<h1>Button</h1>
+			<button type="button" class="btn">Button</button>
+			<a href="#" class="btn">Link</a>
+			<!--  -->
+			<h1>Card</h1>
+			<div class="card" style="max-width: 28rem">
+				<div class="card-img-box">
+					<img
+						src="https://images.unsplash.com/photo-1694034453937-4f877a3fd67c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2127&q=80"
+						class="card-img"
+						alt="..." />
+				</div>
+				<div class="card-body">
+					<h3 class="card-title">Card title</h3>
+					<div class="card-text">
+						<p>
+							Howdy, I'm Zachary, a uniquely creative designer and
+							developer with over 15 years of experience. I primarily
+							focus on Idea, Product and Brand. I thrive as a generalist,
+							able to quickly adapt and scale my work across a variety of
+							mediums, infrastructures and tech stacks.
+						</p>
+						<p>
+							I care a lot about biodiversity and land conservation, I
+							play a lot of chess, and I’m usually camping in my free
+							time.
+						</p>
+					</div>
+					<a href="#" class="btn">Read more</a>
+				</div>
+			</div>
+			<br />
+			<div class="card" style="max-width: 28rem">
+				<div class="card-body">
+					<h3 class="card-title">Card title</h3>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up
+						the bulk of the card's content.
+					</p>
+					<a href="#" class="btn">Go somewhere </a>
+				</div>
+			</div>
+			<!--  -->
+			<h1>Text Block</h1>
+			<a href="#" class="text-block">Existensialism</a>
+			<!--  -->
+			<h1>Tooltip</h1>
+			<!--  -->
+			<h1>Dropdown</h1>
+			<!--  -->
+			<h1>Footer</h1>
+		</div>
+		<div class="menu-outer">
+			<div class="menu-box">
+				<div class="menu-left-box">
+					<button type="button" class="btn-menu">
+						<i class="gg-arrow-up"></i>
+					</button>
+				</div>
+				<div class="menu-center-box">
+					<div class="shortcut-menu">
+						<ul>
+							<li>
+								<button type="button" class="btn-tool">
+									<i class="gg-comment"></i>
+								</button>
+							</li>
+							<li>
+								<button type="button" class="btn-tool">
+									<i class="gg-math-minus"></i>
+								</button>
+							</li>
+							<li>
+								<button type="button" class="btn-tool">
+									<i class="gg-math-plus"></i>
+								</button>
+							</li>
+							<li>
+								<button type="button" class="btn-tool">
+									<i class="gg-bookmark"></i>
+								</button>
+							</li>
+							<li>
+								<button type="button" class="btn-tool">
+									<i class="gg-dice-3"></i>
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="menu-right-box">
+					<button type="button" class="btn-menu">
+						<i class="gg-menu"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script
+		src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+		crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</html>
