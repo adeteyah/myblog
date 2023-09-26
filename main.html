@@ -15,7 +15,7 @@
 			rel="stylesheet" />
 		<link rel="stylesheet" href="style.css" />
 		<link
-			href="https://css.gg/css?=|arrow-up|comment|math-plus|math-minus|bookmark|dice-3|menu"
+			href="https://css.gg/css?=|arrow-up|figma|dribbble|youtube|instagram|headset|menu|dark-mode"
 			rel="stylesheet" />
 		<script>
 			let localS = localStorage.getItem('theme');
@@ -26,8 +26,37 @@
 		</script>
 	</head>
 	<body>
-		<div class="cursor-dot" data-cursor-dot></div>
-		<div class="cursor-outline" data-cursor-outline></div>
+		<div class="container">
+			<nav class="nav">
+				<div class="nav-child-links">
+					<ul>
+						<li><a href="#story">Story</a></li>
+						<li><a href="#works">Works</a></li>
+						<li><a href="#sidekicks">Sidekicks</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+				<div class="nav-child-icon">
+					<img
+						class="icon"
+						src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Sun_white_icon.svg/1200px-Sun_white_icon.svg.png"
+						alt="" />
+				</div>
+				<div class="nav-child-button">
+					<button
+						id="theme-switcher"
+						type="button"
+						class="btn btn-primary">
+						Dark Mode
+					</button>
+				</div>
+			</nav>
+			<section id="story"></section>
+			<section id="works"></section>
+			<section id="sidekicks"></section>
+			<section id="contact"></section>
+			<footer></footer>
+		</div>
 	</body>
 	<script
 		src="https://code.jquery.com/jquery-3.7.1.min.js"
