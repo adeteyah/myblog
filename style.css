@@ -226,6 +226,13 @@ h1,h2,h3,h4,h5,h6 {
     backdrop-filter: blur(var(--blur-size));
 }
 
+#slider img {
+    position: relative;
+    height: 800px;
+    object-fit: cover;
+    border-radius: var(--border-radius-3);
+}
+
 #searchbar {
     display: block;
     width: 100%;
