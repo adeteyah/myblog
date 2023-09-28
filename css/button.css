@@ -1,0 +1,20 @@
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	color: var(--btn-bg-text);
+	font-family: 'Space Mono', monospace;
+	padding: var(--btn-padding);
+	background-color: var(--btn-bg);
+	border-radius: var(--btn-border-radius);
+	border: 1px solid var(--btn-border-color);
+	transform: translateY(-2px);
+	box-shadow: var(--swatch-invert-a15) 0 var(--box-shadow-height);
+}
+
+.btn:hover {
+	transform: translateY(0px);
+	color: var(--btn-bg-text-hover);
+	background-color: var(--btn-bg-hover);
+	border: 1px solid var(--btn-border-color-hover);
+	box-shadow: var(--swatch-invert-a75) 0 var(--box-shadow-height-hover);
+}
