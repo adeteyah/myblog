@@ -17,57 +17,560 @@
 		<link
 			href="https://css.gg/css?=|arrow-up|figma|dribbble|youtube|instagram|headset|menu-grid-r|dark-mode"
 			rel="stylesheet" />
-
 		<script>
 			let localS = localStorage.getItem('theme');
-
 			if (localS == 'dark') {
 				document.documentElement.setAttribute('data-theme', 'dark');
 			}
 		</script>
 	</head>
 	<body>
-		<nav class="nav">
-			<div class="nav-brand">
-				<a href="#">
-					<img src="img/icon.png" alt="" />
-				</a>
-			</div>
-			<div class="nav-link">
-				<a href="#">Works</a>
-				<a href="#">About</a>
-				<a href="#">Contact</a>
-			</div>
-			<div class="nav-btn">
-				<button id="theme-switcher" class="btn">See me change!</button>
-			</div>
-		</nav>
-		<section class="video">
-			<video
-				class="video-source"
-				width="100%"
-				height="100%"
-				autoplay
-				muted
-				loop>
-				<source src="video/video.mp4" type="video/mp4" />
-				Your browser does not support the video tag.
-			</video>
-			<div class="video-hero">
-				<h1>
-					My mission is to help you build your projects with my versatility
-					and my ability to adapt to different situations. Together, let's
-					turn your ideas into great projects!
-				</h1>
-			</div>
-		</section>
-		<section>Work</section>
-		<section>Work</section>
-		<section>Work</section>
-		<section>Work</section>
-		<section>Work</section>
-		<section>Work</section>
-		<footer>Footer</footer>
+		<div class="container">
+			<div class="cursor"></div>
+			<div class="cursor-follower"></div>
+			<nav class="nav-top">
+				<div class="mouse"></div>
+			</nav>
+			<nav class="nav-bot">
+				<div class="nav-bot-scroll"></div>
+				<div>
+					<div class="nav-brand">
+						<a href="#">
+							<img src="img/icon.png" alt="" />
+						</a>
+					</div>
+				</div>
+				<div>MENU</div>
+				<div>DM</div>
+			</nav>
+			<section class="video">
+				<div class="video-intro">
+					<h1>Secapek-capeknya kerja, lebih capek nganggur.</h1>
+				</div>
+				<video
+					class="video-source"
+					width="100%"
+					height="100%"
+					autoplay
+					muted
+					loop>
+					<source src="video/video.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
+			</section>
+			<section class="works">
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.studio20four.at/wp-content/uploads/2023/02/Moosalm-Web-01-1-1024x683.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://img.freepik.com/premium-psd/sun-protection-jar-mockup-design_23-2149903889.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://149842030.v2.pressablecdn.com/wp-content/uploads/2019/05/basic-set-pack-lotion-cosmetic-graphic-psd-free-mockup.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://unblast.com/wp-content/uploads/2019/11/Cosmetic-Products-Mockup-2.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.pixeden.com/media/k2/galleries/1862/001-herbs-tea-product-container-packaging-cardboard-branding-graphic-psd-mockup-pixeden.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://mockuphunt.co/cdn/shop/products/flat-lay-product-design-with-bottle-mock-up-psd_607a48d17bf4a_900x.jpg?v=1647973602"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://blog.saleslayer.com/hs-fs/hubfs/A_Blog/2020-05-May/mockup-.jpeg?width=772&name=mockup-.jpeg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.studio20four.at/wp-content/uploads/2023/02/Moosalm-Web-01-1-1024x683.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://img.freepik.com/premium-psd/sun-protection-jar-mockup-design_23-2149903889.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://149842030.v2.pressablecdn.com/wp-content/uploads/2019/05/basic-set-pack-lotion-cosmetic-graphic-psd-free-mockup.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://unblast.com/wp-content/uploads/2019/11/Cosmetic-Products-Mockup-2.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.pixeden.com/media/k2/galleries/1862/001-herbs-tea-product-container-packaging-cardboard-branding-graphic-psd-mockup-pixeden.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://mockuphunt.co/cdn/shop/products/flat-lay-product-design-with-bottle-mock-up-psd_607a48d17bf4a_900x.jpg?v=1647973602"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://blog.saleslayer.com/hs-fs/hubfs/A_Blog/2020-05-May/mockup-.jpeg?width=772&name=mockup-.jpeg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.studio20four.at/wp-content/uploads/2023/02/Moosalm-Web-01-1-1024x683.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://img.freepik.com/premium-psd/sun-protection-jar-mockup-design_23-2149903889.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://149842030.v2.pressablecdn.com/wp-content/uploads/2019/05/basic-set-pack-lotion-cosmetic-graphic-psd-free-mockup.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://unblast.com/wp-content/uploads/2019/11/Cosmetic-Products-Mockup-2.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.pixeden.com/media/k2/galleries/1862/001-herbs-tea-product-container-packaging-cardboard-branding-graphic-psd-mockup-pixeden.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://mockuphunt.co/cdn/shop/products/flat-lay-product-design-with-bottle-mock-up-psd_607a48d17bf4a_900x.jpg?v=1647973602"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://blog.saleslayer.com/hs-fs/hubfs/A_Blog/2020-05-May/mockup-.jpeg?width=772&name=mockup-.jpeg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.studio20four.at/wp-content/uploads/2023/02/Moosalm-Web-01-1-1024x683.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://img.freepik.com/premium-psd/sun-protection-jar-mockup-design_23-2149903889.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://149842030.v2.pressablecdn.com/wp-content/uploads/2019/05/basic-set-pack-lotion-cosmetic-graphic-psd-free-mockup.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://unblast.com/wp-content/uploads/2019/11/Cosmetic-Products-Mockup-2.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.pixeden.com/media/k2/galleries/1862/001-herbs-tea-product-container-packaging-cardboard-branding-graphic-psd-mockup-pixeden.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://mockuphunt.co/cdn/shop/products/flat-lay-product-design-with-bottle-mock-up-psd_607a48d17bf4a_900x.jpg?v=1647973602"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://blog.saleslayer.com/hs-fs/hubfs/A_Blog/2020-05-May/mockup-.jpeg?width=772&name=mockup-.jpeg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.studio20four.at/wp-content/uploads/2023/02/Moosalm-Web-01-1-1024x683.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://img.freepik.com/premium-psd/sun-protection-jar-mockup-design_23-2149903889.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://149842030.v2.pressablecdn.com/wp-content/uploads/2019/05/basic-set-pack-lotion-cosmetic-graphic-psd-free-mockup.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://unblast.com/wp-content/uploads/2019/11/Cosmetic-Products-Mockup-2.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.pixeden.com/media/k2/galleries/1862/001-herbs-tea-product-container-packaging-cardboard-branding-graphic-psd-mockup-pixeden.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://mockuphunt.co/cdn/shop/products/flat-lay-product-design-with-bottle-mock-up-psd_607a48d17bf4a_900x.jpg?v=1647973602"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://blog.saleslayer.com/hs-fs/hubfs/A_Blog/2020-05-May/mockup-.jpeg?width=772&name=mockup-.jpeg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.studio20four.at/wp-content/uploads/2023/02/Moosalm-Web-01-1-1024x683.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://img.freepik.com/premium-psd/sun-protection-jar-mockup-design_23-2149903889.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://149842030.v2.pressablecdn.com/wp-content/uploads/2019/05/basic-set-pack-lotion-cosmetic-graphic-psd-free-mockup.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://unblast.com/wp-content/uploads/2019/11/Cosmetic-Products-Mockup-2.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.pixeden.com/media/k2/galleries/1862/001-herbs-tea-product-container-packaging-cardboard-branding-graphic-psd-mockup-pixeden.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://mockuphunt.co/cdn/shop/products/flat-lay-product-design-with-bottle-mock-up-psd_607a48d17bf4a_900x.jpg?v=1647973602"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://blog.saleslayer.com/hs-fs/hubfs/A_Blog/2020-05-May/mockup-.jpeg?width=772&name=mockup-.jpeg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.studio20four.at/wp-content/uploads/2023/02/Moosalm-Web-01-1-1024x683.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://img.freepik.com/premium-psd/sun-protection-jar-mockup-design_23-2149903889.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://149842030.v2.pressablecdn.com/wp-content/uploads/2019/05/basic-set-pack-lotion-cosmetic-graphic-psd-free-mockup.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://unblast.com/wp-content/uploads/2019/11/Cosmetic-Products-Mockup-2.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.pixeden.com/media/k2/galleries/1862/001-herbs-tea-product-container-packaging-cardboard-branding-graphic-psd-mockup-pixeden.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://mockuphunt.co/cdn/shop/products/flat-lay-product-design-with-bottle-mock-up-psd_607a48d17bf4a_900x.jpg?v=1647973602"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://blog.saleslayer.com/hs-fs/hubfs/A_Blog/2020-05-May/mockup-.jpeg?width=772&name=mockup-.jpeg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.studio20four.at/wp-content/uploads/2023/02/Moosalm-Web-01-1-1024x683.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://img.freepik.com/premium-psd/sun-protection-jar-mockup-design_23-2149903889.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://149842030.v2.pressablecdn.com/wp-content/uploads/2019/05/basic-set-pack-lotion-cosmetic-graphic-psd-free-mockup.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://unblast.com/wp-content/uploads/2019/11/Cosmetic-Products-Mockup-2.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.pixeden.com/media/k2/galleries/1862/001-herbs-tea-product-container-packaging-cardboard-branding-graphic-psd-mockup-pixeden.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://mockuphunt.co/cdn/shop/products/flat-lay-product-design-with-bottle-mock-up-psd_607a48d17bf4a_900x.jpg?v=1647973602"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://blog.saleslayer.com/hs-fs/hubfs/A_Blog/2020-05-May/mockup-.jpeg?width=772&name=mockup-.jpeg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.studio20four.at/wp-content/uploads/2023/02/Moosalm-Web-01-1-1024x683.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://img.freepik.com/premium-psd/sun-protection-jar-mockup-design_23-2149903889.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://149842030.v2.pressablecdn.com/wp-content/uploads/2019/05/basic-set-pack-lotion-cosmetic-graphic-psd-free-mockup.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://unblast.com/wp-content/uploads/2019/11/Cosmetic-Products-Mockup-2.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://www.pixeden.com/media/k2/galleries/1862/001-herbs-tea-product-container-packaging-cardboard-branding-graphic-psd-mockup-pixeden.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://mockuphunt.co/cdn/shop/products/flat-lay-product-design-with-bottle-mock-up-psd_607a48d17bf4a_900x.jpg?v=1647973602"
+							alt="" />
+					</div>
+				</div>
+				<div class="work">
+					<div class="work-img-wrapper">
+						<img
+							class="work-img"
+							src="https://blog.saleslayer.com/hs-fs/hubfs/A_Blog/2020-05-May/mockup-.jpeg?width=772&name=mockup-.jpeg"
+							alt="" />
+					</div>
+				</div>
+			</section>
+			<section>Work</section>
+			<section>Work</section>
+			<section>Work</section>
+			<section>Work</section>
+			<section>Work</section>
+			<footer>Footer</footer>
+		</div>
 	</body>
 	<script
 		src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -78,7 +581,15 @@
 		integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g=="
 		crossorigin="anonymous"
 		referrerpolicy="no-referrer"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
-
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+		integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+		integrity="sha512-HaoDYc3PGduguBWOSToNc0AWGHBi2Y432Ssp3wNIdlOzrunCtB2qq6FrhtPbo+PlbvRbyi86dr5VQx61eg/daQ=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"></script>
 	<script src="script.js"></script>
 </html>
